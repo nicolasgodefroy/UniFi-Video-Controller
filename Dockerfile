@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.11
-MAINTAINER pducharme@me.com
+MAINTAINER nicolasgodefroy.pro@gmail.com
 
 # Version
 ENV version 3.10.2
