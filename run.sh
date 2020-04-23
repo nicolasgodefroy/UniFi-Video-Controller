@@ -6,7 +6,7 @@ unifi_video_opts=""
 
 # Graceful shutdown, used by trapping SIGTERM
 function graceful_shutdown {
-  echo -n "Stopping unifi-video... " 
+  echo -n "Stopping unifi-video... "
   if /usr/sbin/unifi-video --nodetach stop; then
     echo "done."
     exit 0
